@@ -1,0 +1,20 @@
+.vc-client {
+    .slick-slide {
+        padding: 0 8px;
+    }
+
+    .client-content {
+
+        img {
+            border-radius: 20px;
+            border       : 1px solid #DEDEDE;
+            transition   : all .3s ease 0s;
+            width        : 100%;
+
+            &:hover {
+                transform : translateY(2px);
+                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
